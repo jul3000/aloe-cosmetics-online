@@ -45,6 +45,7 @@ nav {
 h2 {
   margin-top:160px;
   color: white;
+  font-size: 40px;
 }
 
 .back {
@@ -62,7 +63,7 @@ h2 {
 }
 
 .company-name {
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Pacifico', cursive;
 }
 
@@ -132,6 +133,7 @@ button {
 @media all and (max-width: 500px) {
   h2 {
     text-align: center;
+    font-size: 30px;
   }
 
   .product-picture, .contact-picture {

@@ -11,8 +11,8 @@ function Home() {
   const twoRef = useRef(null);
 
   useEffect (() => {
-    gsap.to(oneRef.current, {duration:4, x:-100, ease: "0.5, 0.8, true"})
-    gsap.to(twoRef.current, {duration:3, delay:2})
+    gsap.fromTo(oneRef.current, {opacity:0 }, {opacity: 1 , duration: 3, delay:1 })
+    gsap.fromTo(twoRef.current, {opacity:0 }, {opacity: 1, duration:3, ease: "power2.inOut", x: 80, delay: 2})
   }, []) 
 
   const chosenProducts = (searchTerm) => {
