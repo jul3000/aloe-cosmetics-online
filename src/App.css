@@ -1,0 +1,140 @@
+body {
+  background-color: #E5F9DB;
+}
+
+nav {
+  background: #80BCBD;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.background {
+  background-image: url(pics/Aloe\ barbadensis.jpg);
+  background-size:cover;
+  background-position: center;
+  height: 600px;
+}
+
+.background-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  margin-top:160px;
+  color: white;
+}
+
+.back {
+  background-color: #f4eddd; 
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+}
+
+.company-name {
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+}
+
+.change {
+  background-color: #80BCBD;
+  color: black;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  width: 90px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
+button {
+  margin: 10px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 15px;
+}
+
+.about-pictures-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.contact-picture {
+  align-self: center;
+}
+
+@media all and (max-width: 800px) {
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .about-pictures-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media all and (max-width: 500px) {
+  h2 {
+    text-align: center;
+  }
+
+  .product-picture, .contact-picture {
+    width: 350px;
+  }
+}
