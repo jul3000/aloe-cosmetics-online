@@ -151,9 +151,12 @@ textarea {
 
 .button {
   margin-top: 15px;
-  padding: 10px;
+  padding: 15px;
   font-family: 'Oswald', sans-serif;
   border: none;
+  border-radius: 10px;
+  background-color: #80BCBD;
+  width: 100px;
 }
 
 @media all and (max-width: 800px) {
