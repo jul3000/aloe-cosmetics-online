@@ -29,7 +29,7 @@ function Home() {
         </div>    
     </div>
 
-      <Buttons filteredProducts = {chosenProducts}/>
+      <Buttons filteredProducts = {chosenProducts} setProducts = {setProducts}/>
       <Products itemsForSale={products}/>
       </div>
   );
