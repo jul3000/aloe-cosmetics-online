@@ -6,6 +6,7 @@ export const data = [
       name: "Aloe vera hand wash gel",
       searchTerm: "Body care",
       price: 5,
+      content: "Aloe vera hand wash gel",
       image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/aloe vera soap.jpg?v=1704899763596",
     },
   
