@@ -7,7 +7,7 @@ function Products ({itemsForSale}) {
                 
                 <div className="product-info">
                     <p>{name}</p>
-                    <p> More information about {name} </p>                   
+                    <p> Click here to get more information about {name} </p>                   
                     <p>Price: {price} euro</p>
                 </div>
             </div>
