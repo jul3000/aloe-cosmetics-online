@@ -1,4 +1,12 @@
 function About() {
+    const oneRef = useRef(null);
+    const twoRef = useRef(null);
+
+  useEffect (() => {
+    gsap.fromTo(oneRef.current, {opacity:0 }, {opacity: 1 , duration: 3, delay:1 })
+    gsap.fromTo(twoRef.current, {opacity:0 }, {opacity: 1, duration:3, ease: "power2.inOut", x: 80, delay: 2})
+  }, []) 
+    
     return(<div className="about">
         <div className="background">
             <div className="background-container">
