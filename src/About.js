@@ -1,5 +1,13 @@
 function About() {
     return(<div className="about">
+        <div className="background">
+            <div className="background-container">
+                <p className="back">Free shipping for orders over 40 euros</p>
+                <h2 ref={oneRef}>Best cosmetic quality made in Germany <img src="https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/German-flag.png?v=1704983703919" alt="German flag" width="60px"/> </h2>
+                <p className="company-name" ref={twoRef}>by Sanct Bernhard</p>
+            </div>    
+        </div>
+        
         <div className="about-pictures-container">
         <img className="about-picture" src="https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Sanct%20Bernhard.jpg?v=1705056044742" alt="company" width="340px"/>
         <br/>
@@ -7,6 +15,7 @@ function About() {
         <br/>
         <img className="about-picture" src="https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/office%202.jpg?v=1705060569039" alt="company" width="340px"/>
         </div>
+        
         <div>
             <h1>About Sanct Bernhard</h1>
             <p className="company-name">Tradition since 1903</p>
