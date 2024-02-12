@@ -12,8 +12,8 @@ import Home from "./Home";
 function App() {
   return (<Router>
     <nav>
-      <Link to="/" className="link">Shop</Link>
-      <Link to="/about" className="link">About</Link>
+      <Link to="/" className="link">About</Link>
+      <Link to="/about" className="link">Shop</Link>
       <Link to="/contact" className="link">Contact</Link>
     </nav>
 
