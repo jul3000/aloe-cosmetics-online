@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.active {
+    padding: 10px 30px;
+    border: 2px solid red;
+    cursor: pointer;
+    }
+    
+    .default {
+    padding: 10px 30px;
+    border: 2px solid black;
+    cursor: pointer;
+    }
+    
+    .content {
+    padding: 50px 30px;
+    }
