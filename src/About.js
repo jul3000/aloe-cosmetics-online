@@ -2,7 +2,7 @@ import {useEffect, useRef} from "react";
 import {gsap} from "gsap";
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Carousel from './Carousel';
+import slider from './slider';
 
 function About() {
     const oneRef = useRef(null);
@@ -28,7 +28,7 @@ function About() {
             <p>Wherever possible and expedient, our raw materials are of vegetable or mineral origin. We use carefully selected, highly dosed botanical essences, essential oils and active ingredients from nature that give you what you need for natural health, beauty and well-being.</p>    
         </div> 
 
-        <Carousel/>
+        <slider/>
         
         <div className="about-pictures-container">
             <img className="about-picture" src="https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Sanct%20Bernhard.jpg?v=1705056044742" alt="company" width="340px"/>
