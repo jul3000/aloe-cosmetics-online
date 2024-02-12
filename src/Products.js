@@ -1,3 +1,5 @@
+import { Accordion } from './Accordion';
+
 function Products ({itemsForSale}) {
     return (<div className="products">
         {itemsForSale.map( element => {
