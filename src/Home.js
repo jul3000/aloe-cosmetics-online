@@ -12,6 +12,7 @@ function Home() {
   }
 
   return (<div>
+      <p className="back">Free shipping for orders over 40 euros</p>
       <Buttons filteredProducts = {chosenProducts} setProducts = {setProducts}/>
       <Products itemsForSale={products}/>
       </div>
