@@ -1,3 +1,6 @@
+import {useEffect, useRef} from "react";
+import {gsap} from "gsap";
+
 function About() {
     const oneRef = useRef(null);
     const twoRef = useRef(null);
