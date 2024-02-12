@@ -8,8 +8,6 @@ import './App.css';
 import Contact from "./Contact";
 import About from "./About";
 import Home from "./Home";
-import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (<Router>
