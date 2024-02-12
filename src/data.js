@@ -5,6 +5,7 @@ export const data = [
       id: 1,
       name: "ALOE VERA HAND WASH GEL",
       searchTerm: "Body care",
+      content: "More informarmation about this product",
       price: 5,
       image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/aloe vera soap.jpg?v=1704899763596",
     },
@@ -13,6 +14,7 @@ export const data = [
       id: 2,
       name: "ALOE VERA FACE CARE SET",
       searchTerm: "Face care",
+      content: "More informarmation about this product",
       price: 25,
       image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/aloe vera face care set.jpg?v=1704900436218"
     },
@@ -22,6 +24,7 @@ export const data = [
       id: 3,
       name: "ALOE VERA TOOTHPASTE",
       searchTerm: "Teeth",
+      content: "More informarmation about this product",
       price: 6,
       image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe vera toothpaste.jpg?v=1704900812822"
     },
@@ -31,6 +34,7 @@ export const data = [
       id: 4,
       name: "ALOE VERA BODY MOISTURISING GEL",
       searchTerm: "Body care",
+      content: "More informarmation about this product",
       price: 7.5,
       image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe vera moisturising gel.jpg?v=1704901149818"
     },
@@ -40,6 +44,7 @@ export const data = [
       id: 5,
       name: "ALOE VERA SUN PROTECTION MILK SPF30",
       searchTerm: "Sun care",
+      content: "More informarmation about this product",
       price: 15,
       image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe vera sun protection milk SPF 30.jpg?v=1704901456946"
     },
@@ -48,6 +53,7 @@ export const data = [
       id: 6,
       name: "ALOE VERA MOUTHWASH",
       searchTerm: "Teeth",
+      content: "More information about this product",
       price: 4.95,
       image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe vera mouthwash.jpg?v=1704901630382"
     },
@@ -56,6 +62,7 @@ export const data = [
       id: 7,
       name: "ALOE VERA SHAMPOO",
       searchTerm: "Hair",
+      content: "More informarmation about this product",
       price: 7.5,
       image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe vera shampoo.jpg?v=1704901871265"
     },
@@ -64,6 +71,7 @@ export const data = [
       id: 8,
       name: "ALOE VERA EYE GEL",
       searchTerm: "Face care",
+      content: "More informarmation about this product",
       price: 6.5,
       image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe vera eye gel.jpg?v=1704901977074"
     },
@@ -72,6 +80,7 @@ export const data = [
       id: 9,
       name: "ALOE VERA LIP CREAM SPF6",
       searchTerm: "Face care",
+      content: "More informarmation about this product",
       price: 3.2,
       image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe vera lip cream SPF 6.jpg?v=1704902073798"
     },
@@ -80,6 +89,7 @@ export const data = [
       id: 10,
       name: "ALOE VERA FACIAL TONIC",
       searchTerm: "Face care",
+      content: "More informarmation about this product",
       price: 7.5,
       image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe vera facial tonic.jpg?v=1704902174303"
     },
@@ -88,6 +98,7 @@ export const data = [
       id: 11,
       name: "ALOE VERA SKIN PROTECTION CREAM",
       searchTerm: "Face care",
+      content: "More informarmation about this product",
       price: 6.55,
       image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe vera skin protection cream.jpg?v=1704925909296"
     },
@@ -96,6 +107,7 @@ export const data = [
       id: 12,
       name: "ALOE VERA FACE CLEANSING GEL",
       searchTerm: "Face care",
+      content: "More informarmation about this product",
       price: 6.95,
       image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe vera face cleansing gel.jpg?v=1704926023062"
     },
@@ -104,6 +116,7 @@ export const data = [
       id: 13,
       name: "ALOE VERA SUN PROTECION MILK SPF20",
       searchTerm: "Sun care",
+      content: "More informarmation about this product",
       price: 13.6,
       image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe vera sun protection milk SPF20.jpg?v=1704926103057"
     },
@@ -112,6 +125,7 @@ export const data = [
       id: 14,
       name: "ALOE VERA FACE MOISTURING AMPOULES 14 * 2 ml",
       searchTerm: "Face care",
+      content: "More informarmation about this product",
       price: 19,
       image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe vera face moisturing ampoules.jpg?v=1704926209476"
     },
@@ -120,6 +134,7 @@ export const data = [
       id: 15,
       name: "ALOE VERA WELNESS BATH",
       searchTerm: "Body care",
+      content: "More informarmation about this product",
       price: 9.5,
       image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe vera welness bath.jpg?v=1704926349729"
     },
@@ -128,6 +143,7 @@ export const data = [
         id: 16,
         name: "QUEEN'S PROPOLIS AMPOULES",
         searchTerm: "Face care",
+        content: "More informarmation about this product",
         price: 29.75,
         image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Queen's propolis facial ampoules.jpg?v=1704926837064"
       },
@@ -136,6 +152,7 @@ export const data = [
         id: 17,
         name: "ALOE VERA FACIAL SCRUB",
         searchTerm: "Face care",
+        content: "More informarmation about this product",
         price: 7.5,
         image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe vera facial scrub.jpg?v=1704926484291"
       },
@@ -144,6 +161,7 @@ export const data = [
         id: 18,
         name: "QUEEN'S PROPOLIS FACIAL SET",
         searchTerm: "Face care",
+        content: "More informarmation about this product",
         price: 55,
         image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe vera queens' propolis facial set.jpg?v=1704926623658"
       },
@@ -152,6 +170,7 @@ export const data = [
         id: 19,
         name: "ALOE VERA SHOWER GEL",
         searchTerm: "Body care",
+        content: "More informarmation about this product",
         price: 8,
         image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe vera shower gel.jpg?v=1704927023203"
       },
@@ -160,6 +179,7 @@ export const data = [
         id: 20,
         name: "QUEEN'S PROPOLIS CREAM",
         searchTerm: "Face care",
+        content: "More informarmation about this product",
         price: 35.2,
         image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Queen's propolis cream.jpg?v=1704927116944"
       },
@@ -168,6 +188,7 @@ export const data = [
         id: 21,
         name: "ALOE VERA BODY SPRAY",
         searchTerm: "Body care",
+        content: "More informarmation about this product",
         price: 6.55,
         image: "https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/Aloe%20vera%20body%20spray.png?v=1704927332597"
       }
