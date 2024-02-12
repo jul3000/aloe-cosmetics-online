@@ -92,7 +92,7 @@ button {
 
 .about {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   margin: 15px;
 }
 
