@@ -13,7 +13,6 @@ function About() {
     return(<div className="about">
         <div className="background">
             <div className="background-container">
-                <p className="back">Free shipping for orders over 40 euros</p>
                 <h2 ref={oneRef}>Best cosmetic quality made in Germany <img src="https://cdn.glitch.global/ac9d64dd-b114-43b4-925f-496de557b57e/German-flag.png?v=1704983703919" alt="German flag" width="60px"/> </h2>
                 <p className="company-name" ref={twoRef}>by Sanct Bernhard</p>
             </div>    
