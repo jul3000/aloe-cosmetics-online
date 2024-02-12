@@ -1,11 +1,9 @@
-import { useEffect, useState, useRef } from "react";
+import { useState } from "react";
 import { data } from "./data";
 import Products from "./Products";
 import Buttons from "./Buttons";
-import { gsap } from "gsap";
 
 function Home() {
-
   const [products, setProducts] = useState(data);
 
   const chosenProducts = (searchTerm) => {
